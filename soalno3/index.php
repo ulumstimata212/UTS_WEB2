@@ -42,8 +42,8 @@ if(isset($_POST["cari"])){
         <tr>
             <td><?=$i?></td>
             <td>
-                <a href="update.php?id=<?= $row['no'];?>">ubah</a> |
-                <a href="delete.php?id=<?= $row['no'];?>">hapus</a>
+                <a href="update.php?no=<?= $row['no'];?>">ubah</a> |
+                <a href="delete.php?no=<?= $row['no'];?>">hapus</a>
             </td>
             <td><?= $row['nama']?></td>
             <td><?= $row['nim']?></td>
